@@ -1,1 +1,89 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1; /* Warna background pink lembut */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
+/* Main Container */
+.container {
+    background-color: #4f77d5; /* Pink lebih cerah untuk container */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Title Styling */
+h1 {
+    color: #080b74; /* Pink tua untuk judul */
+}
+
+/* Input Task Container */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #2b2bde; /* Warna pink untuk border */
+    border-radius: 8px;
+    width: 70%;
+}
+
+button {
+    background-color: #0e31ca; /* Tombol warna pink tua */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0d40d9; /* Warna pink saat hover */
+}
+
+/* Task List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #012494; /* Warna item tugas pink lembut */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Task Input Field */
+input[type="text"]:focus {
+    outline: none;
+    border-color: #1d27e4; /* Fokus pink saat mengedit */
+}
+
+/* Delete Button Styling */
+button.delete-btn {
+    background-color: #2b42d6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button.delete-btn:hover {
+    background-color: #232f9c;
+}
